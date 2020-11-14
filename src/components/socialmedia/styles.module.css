@@ -1,0 +1,22 @@
+.icons {
+    background-size: 20px 30px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.icons:hover{
+    fill: #2196f3!important;
+}
+
+ul {
+    list-style-type:none;
+}
+
+ul li {
+    padding: 10px 18px;
+    border-bottom: 2px solid #c7c9ce;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}

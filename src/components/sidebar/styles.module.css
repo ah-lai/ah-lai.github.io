@@ -1,0 +1,45 @@
+.row {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    display: grid;
+    margin-top: 10vh;
+}
+
+.line {
+    height: 10px;
+    border-top: 2px solid #c7c9ce;
+    /* may need margin depending on picture */
+}
+
+.nav:hover{
+    font-size: larger;
+}
+
+.active {
+    color:#2196f3!important;    
+}
+
+@media only screen and (min-width: 600px) {
+    .row {
+        width: 45%;
+        float: left;
+        background: url('./pics/test.png') no-repeat; 
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .row {
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 1150px) {
+    .row {
+        width: 25%;
+    }
+}

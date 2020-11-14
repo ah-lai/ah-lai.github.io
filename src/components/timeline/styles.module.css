@@ -1,0 +1,32 @@
+.condiv {
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #f4f5f9;
+    display: flow-root;
+}
+
+.title{
+    text-align: center;
+    color: #ff4081;
+    font-size: 34px;
+    margin: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+    .condiv {
+        margin-left: 45%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .condiv {
+        margin-left: 30%;
+    }
+}
+
+@media only screen and (min-width: 1150px) {
+    .condiv {
+        margin-left: 25%;
+    }
+}
