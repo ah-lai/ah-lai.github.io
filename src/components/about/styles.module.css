@@ -1,37 +1,36 @@
-.condiv {
-    text-align: left;
-    padding: 100px ;
-    background-color: rgb(97, 129, 182);
-    display: flow-root;
-    color: white;
-}
-
 .name {
     font-size: 50px;
-    margin-top: 15vh;
     margin-bottom: 15px;
 }
 
 .about {
     float: left;
-    padding-right: 250px;
+}
+
+.condiv{
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    background-color: #e3e3e3;
+    display: flow-root;
+    color: black;
 }
 
 @media only screen and (min-width: 600px) {
-    .condiv {
-        margin-left: 45%;
-    }
+  .condiv {
+      margin-left: 45%;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-    .condiv {
-        margin-left: 30%;
-    }
+  .condiv {
+      margin-left: 30%;
+  }
 }
 
 @media only screen and (min-width: 1150px) {
-    .condiv {
-        margin-left: 25%;
-    }
+  .condiv {
+      margin-left: 25%;
+  }
 }
-

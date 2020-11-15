@@ -2,11 +2,10 @@ import React from 'react';
 import styles from './styles.module.css';
 
 class About extends React.Component {
-
     render() {
         return(
             <section>
-                <div id="about" className={styles.condiv}>
+                <div id="about" class={styles.condiv}>
                     <h1 className={styles.name}>Hi! I'm Alvin Lai</h1>
                     <h3>Full Stack Web <u>Developer</u></h3>
                     <br></br>

@@ -2,6 +2,7 @@ import Sidebar from './components/sidebar/'
 import About from './components/about'
 import Projects from './components/projects'
 import Timeline from './components/timeline'
+import Intro from './components/intro'
 import './App.css';
 
 function App() {
@@ -9,9 +10,10 @@ function App() {
     <div className="App">
       <Sidebar></Sidebar>
       <div class="rightpanel">
-      <About></About>
-      <Projects></Projects>
-      <Timeline></Timeline>
+        <Intro></Intro>
+        <About></About>
+        <Projects></Projects>
+        <Timeline></Timeline>
       </div>
     </div>
   );
