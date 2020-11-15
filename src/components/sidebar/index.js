@@ -21,7 +21,9 @@ class Sidebar extends React.Component{
                 <div>
                     <ul>
                         <li className={styles.nav}><Link activeClass={styles.active} to="about" spy={true} smooth={true} duration={500} >About</Link></li>
+                        <div className={styles.line}></div>
                         <li className={styles.nav}><Link activeClass={styles.active} to="projects" spy={true} smooth={true} duration={500} >Projects</Link></li>
+                        <div className={styles.line}></div>
                         <li className={styles.nav}><Link activeClass={styles.active} to="experience" spy={true} smooth={true} duration={500} >Experience</Link></li>
                     </ul>
                 </div>

@@ -1,4 +1,5 @@
-@import url('http://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('http://fonts.googleapis.com/css?family=Lato:400');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400');
 
 * {
   margin: 0 auto;
@@ -10,13 +11,18 @@
 .skillContainer {
   flex-wrap: wrap;
   margin-bottom: 5px;
+  text-align: left;
+}
+
+.rightpanel{
+  overflow: hidden;
 }
 
 .skill {
   background-color: #e0e0e0;
   justify-content: center;
   border-radius: 16px;
-  height: 25px;
+  height: 8px;
   display: inline-flex;
   border: none;
   margin-right: 7px;
@@ -28,4 +34,12 @@
   font-size: 13px;
   align-items: center;
   display: flex;
+}
+
+.header{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #ff4081;
+    font-size: 34px;
+    margin: 20px;
 }

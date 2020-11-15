@@ -8,9 +8,11 @@ function App() {
   return (
     <div className="App">
       <Sidebar></Sidebar>
+      <div class="rightpanel">
       <About></About>
       <Projects></Projects>
       <Timeline></Timeline>
+      </div>
     </div>
   );
 }

@@ -7,28 +7,42 @@
     overflow-x: hidden;
     padding-top: 20px;
     display: grid;
-    margin-top: 10vh;
+    padding-top: 10vh;
+    color: white;
 }
 
 .line {
     height: 10px;
     border-top: 2px solid #c7c9ce;
+    width: 155px;
     /* may need margin depending on picture */
 }
 
+.nav {
+    font-size: 22px;
+    padding: 10px 18px;
+}
 .nav:hover{
-    font-size: larger;
+    font-size: 27px;
 }
 
 .active {
     color:#2196f3!important;    
 }
 
+ul {
+    list-style-type:none;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
 @media only screen and (min-width: 600px) {
     .row {
         width: 45%;
         float: left;
-        background: url('./pics/test.png') no-repeat; 
+        background: #173F5f; 
     }
 }
 

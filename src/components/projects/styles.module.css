@@ -2,20 +2,30 @@
     position: relative;
 }
 
-.title{
-    text-align: center;
-    color: #3c81da;
-    font-size: 34px;
-    margin: 20px;
+.projectText{
+    text-decoration: none;
+    color: #303e49;
+    margin: 5px;
 }
 
+.projectText:hover{
+    color:#2196f3!important; 
+}
+
+.skill{
+    padding-left: 10px;
+}
 .project {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
     border: 1px solid rgba(0, 0, 0, 0.5);
     box-shadow: 0 2px 4px rgba(3,27,78,.06);
     border-radius: 10px;
     align-items: center;
-    margin: 15px;
+    margin: 20px;
     background-color: #f4f5f9;
+    text-align: left;
 }
 
 .project:hover {
@@ -27,11 +37,13 @@
 .collumn {
     padding-left: 30px;
     padding-right: 30px;
+    margin-top: 50px;
 }
 
 .wrapper h1,h5 {
-    margin: 20px;
+    margin-bottom: 10px;
     text-align: left;
+    padding: 0px;
 }
 
 .image {
@@ -40,6 +52,21 @@
     right: 0;
     height: 20px;
     padding: 10px 10px;
+}
+
+div[id="MessengerDiv"]{
+    top: 5px;
+    right: -155px;
+}
+
+div[id="FishAiDiv"]{
+    top: 6px;
+    right: -180px;
+}
+
+div[id="RpgDiv"]{
+    top: -8px;
+    right: -185px;
 }
 
 @media only screen and (min-width: 600px) {

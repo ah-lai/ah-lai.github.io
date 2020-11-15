@@ -1,8 +1,9 @@
 .condiv {
     text-align: left;
     padding: 100px ;
-    background-color: #f4f5f9;
+    background-color: rgb(97, 129, 182);
     display: flow-root;
+    color: white;
 }
 
 .name {
@@ -14,10 +15,6 @@
 .about {
     float: left;
     padding-right: 250px;
-}
-
-h1,h2,h3,h4,p {
-    margin: 10px;
 }
 
 @media only screen and (min-width: 600px) {
