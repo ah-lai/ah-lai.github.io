@@ -11,10 +11,10 @@
 }
 
 .container{ 
-    color: white;
+    color: f4f5f9;
     position: absolute;
     top: 35%;
-    left: 55%;
+    left: 53%;
 }
 
 
@@ -23,10 +23,10 @@
     font-weight: 700;
     line-height: 56px;
     text-transform: uppercase;
-    color: #fff;
+    color: #f4f5f9;
 }
 
 .container h3 {
-    color: #fff;
+    color: #f4f5f9;
     margin: 15px;
 }
