@@ -12,14 +12,23 @@ class Projects extends React.Component {
                 <div>
                     <div className={styles.wrapper}>
                         <div className={styles.project}>
-                            <h1><a className={styles.projectText} href="https://github.com/ah-lai/Web-App-Messenger"  target="_blank"> Messenger Web App </a></h1>
+                            <h3><a className={styles.projectText} href="https://github.com/ah-lai/Web-App-Messenger"  target="_blank"> Messenger Web App </a></h3>
                             <div class="skillContainer">
                                 <div class="skill"><span class="skillText"> React </span></div>
                                 <div class="skill"><span class="skillText"> Django </span></div>
                                 <div class="skill"><span class="skillText"> mySQL </span></div>
                                 <div class="skill"><span class="skillText"> REST </span></div>
                             </div>
-                            <h5> Description </h5>
+                            <div className={styles.description}>
+                                <h5> 
+                                    Messenger Web application used for communication between users. 
+                                </h5>
+                                    <br></br>
+                                <ul>
+                                    <li>Leaverage technolgies such as user token authenication, RESTful calls, ORM, and followed the MVC model.</li>
+                                    <li>Front end was developed in ReactJS (HTML/CSS), which communiated to a Django Rest back-end with a mySQL database. </li>
+                                </ul>
+                            </div>
                         </div>
                         <div id="MessengerDiv" className={styles.image}>
                             <img className={styles.transform} src={chatIcon} width="20%"/>
@@ -27,14 +36,23 @@ class Projects extends React.Component {
                     </div>
                     <div className={styles.wrapper}>
                         <div className={styles.project}>
-                            <h1> <a className={styles.projectText} href="https://github.com/ah-lai/FishAI" target="_blank">FishAI</a></h1>
+                            <h3> <a className={styles.projectText} href="https://github.com/ah-lai/FishAI" target="_blank">FishAI</a></h3>
                             <div class="skillContainer">
                                 <div class="skill"><span class="skillText"> Swift </span></div>
                                 <div class="skill"><span class="skillText"> Keras </span></div>
                                 <div class="skill"><span class="skillText"> CoreML </span></div>
                                 <div class="skill"><span class="skillText"> CNN </span></div>
                             </div>
-                            <h5> Description </h5>
+                            <div className={styles.description}>
+                                <h5> 
+                                    An iOS application used to classify fish species from a user taken photo. 
+                                </h5>
+                                <br></br>
+                                <ul>
+                                    <li>Machine learning neural network was trained using Keras where the model was deployed to CoreML. </li>
+                                    <li>Created a script to build image training dataset using Bing API. </li>
+                                </ul>
+                            </div>
                         </div>
                         <div id="FishAiDiv" className={styles.image}>
                             <img src={fishAiIcon} width="15%"/>
@@ -42,13 +60,22 @@ class Projects extends React.Component {
                     </div>
                     <div className={styles.wrapper}>
                         <div className={styles.project}>
-                            <h1><a className={styles.projectText} href="https://github.com/ah-lai/ME-380"  target="_blank">6-DOF Stewart Platform</a></h1>
+                            <h3><a className={styles.projectText} href="https://github.com/ah-lai/ME-380"  target="_blank">6-DOF Stewart Platform</a></h3>
                             <div class="skillContainer">
                                 <div class="skill"><span class="skillText"> Arduino </span></div>
-                                <div class="skill"><span class="skillText"> PS3 Controlled </span></div>
+                                <div class="skill"><span class="skillText"> PS3 Controller </span></div>
                                 <div class="skill"><span class="skillText"> SOLIDWORKS </span></div>
                             </div>
-                            <h5> Description </h5>
+                            <div className={styles.description}>
+                                <h5> 
+                                    6 degrees of freedom Steward Platform controlled by a PS3 Controller and Arduino used to solve a ball maze.
+                                </h5>
+                                <br></br>
+                                <ul>
+                                    <li>Programmed inverse kinematics in the Arduino to calculate servo motor angles from inputs of a PS3 Controller to move the platform in the desired position. </li>
+                                    <li>Modelled the platform in SOLIDWORKS where parts were 3D-printed and laser cut.  </li>
+                                </ul>
+                            </div>
                         </div>
                         <div id="RpgDiv" className={styles.image}>
                             <img src={almostRpgIcon} width="20%"/>
@@ -56,12 +83,20 @@ class Projects extends React.Component {
                     </div>
                     <div className={styles.wrapper}>
                         <div className={styles.project}>
-                            <h1><a className={styles.projectText} href="https://github.com/ah-lai/Almost-an-RPG"  target="_blank">Almost a RPG</a></h1>
+                            <h3><a className={styles.projectText} href="https://github.com/ah-lai/Almost-an-RPG"  target="_blank">Almost a RPG</a></h3>
                             <div class="skillContainer">
                                 <div class="skill"><span class="skillText"> C++ </span></div>
                                 <div class="skill"><span class="skillText"> SFML </span></div>
                             </div>
-                            <h5> Description </h5>
+                            <div className={styles.description}>
+                                <h5>
+                                    2D role playing video game in C++ using the SFML library and following OOP principles.
+                                </h5>
+                                <br></br>
+                                <ul>
+                                    <li>Game consists of 4 different types of enemys with simple AI, boss rooms, a shop to buy power ups from gold collection. </li>
+                                </ul>
+                            </div>
                         </div>
                         <div id="RpgDiv" className={styles.image}>
                             <img src={almostRpgIcon} width="20%"/>

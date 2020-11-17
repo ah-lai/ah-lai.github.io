@@ -2,17 +2,18 @@ import React from 'react';
 import styles from './styles.module.css';
 import SocialMedia from '../socialmedia'
 import { Link, animateScroll as scroll } from 'react-scroll'
+import profilepic from './pics/tmp.png'
 
 class Sidebar extends React.Component{
     render () {
         return (
         <div className={styles.row}>
             <div>
-                <div>
-                    Profile Pic 
+                <div className={styles.profilepic}>
+                    <img src={profilepic} alt="profilepic" width="50%"/>
                 </div>
                 <div>
-                    <h1>Alvin Lai</h1>
+                    <h1 className={styles.name}>Alvin Lai</h1>
                 </div>
                 <div className={styles.line}></div>
                 <SocialMedia></SocialMedia>

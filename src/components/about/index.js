@@ -1,5 +1,7 @@
 import React from 'react';
 import styles from './styles.module.css';
+import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class About extends React.Component {
     render() {
@@ -16,6 +18,12 @@ class About extends React.Component {
                         As well, I have proven communication and leadership skills shown by obtaining Duke of Edinburgh Award and Toastmasters International Certification!
                         <br></br>
                         <br></br>
+
+                        Skills: 
+
+                        <br></br>
+                        <br></br>
+                        <Button variant="primary">RESUME</Button>{' '}
                     </p>
                 </div>
             </section>

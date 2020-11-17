@@ -43,11 +43,8 @@ class Timeline extends React.Component {
                                 <div class="skill"><span class="skillText"> ASP.NET </span></div>
                                 <div class="skill"><span class="skillText"> jQuery </span></div>
                             </div>
-                            <h2 className="vertical-timeline-element-title">Software Developer - TDO</h2>
-                            <h4 className="vertical-timeline-element-subtitle">MioVision</h4>
-                            <p>
-                            Description
-                            </p>
+                            <h3 className="vertical-timeline-element-title">Software Developer - TDO</h3>
+                            <h4 className="vertical-timeline-element-subtitle">Miovision</h4>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
@@ -82,10 +79,7 @@ class Timeline extends React.Component {
                                 <div class="skill"><span class="skillText"> SQL </span></div>
                             </div>
                             <h3 className="vertical-timeline-element-title">Software Developer - Datalink</h3>
-                            <h4 className="vertical-timeline-element-subtitle">MioVision</h4>
-                            <p>
-                            Description
-                            </p>
+                            <h4 className="vertical-timeline-element-subtitle">Miovision</h4>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
@@ -112,9 +106,6 @@ class Timeline extends React.Component {
                             </div>
                             <h3 className="vertical-timeline-element-title">Software Developer (Automation)</h3>
                             <h4 className="vertical-timeline-element-subtitle">Lumentum</h4>
-                            <p>
-                            Description
-                            </p>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
@@ -170,9 +161,6 @@ class Timeline extends React.Component {
                             </div>
                             <h3 className="vertical-timeline-element-title">Junior Engineering</h3>
                             <h4 className="vertical-timeline-element-subtitle">KingTiger Technology Inc.</h4>
-                            <p>
-                            Description
-                            </p>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                                 className="vertical-timeline-element--work"
@@ -181,16 +169,11 @@ class Timeline extends React.Component {
                                 icon={<svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="357.000000pt" height="308.000000pt" viewBox="0 0 357.000000 308.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,308.000000) scale(0.100000,-0.100000)"fill="#000000" stroke="none"><path d="M1570 3054 c-69 -7 -136 -15 -150 -18 -14 -3 -50 -11 -80 -16 -103 -21 -235 -53 -245 -60 -5 -4 -29 -11 -52 -15 -24 -4 -43 -11 -43 -16 0 -6 -4 -7 -10 -4 -5 3 -22 0 -37 -8 -36 -19 -76 -35 -84 -33 -4 0 -16 -7 -26 -17 -11 -9 -23 -14 -26 -10 -4 3 -7 1 -7 -6 0 -7 -4 -10 -9 -7 -10 6 -155 -79 -256 -150 -94 -66 -215 -183 -285 -274 -58 -77 -176 -290 -184 -332 -3 -12 -5 -23 -6 -23 -1 0 -4 -11 -6 -25 -2 -13 -10 -27 -16 -31 -6 -4 -8 -14 -5 -22 3 -8 3 -18 -1 -21 -3 -4 -7 -17 -7 -29 -1 -12 -2 -42 -3 -67 -2 -33 -5 -41 -12 -30                               -5 8 -10 10 -10 5 0 -6 5 -16 10 -21 8 -8 8 -37 1 -95 -19 -169 -23 -239 -12                               -239 6 0 8 -12 5 -30 -4 -20 -2 -30 5 -30 7 0 11 -10 10 -22 -3 -27 10 -89 21                               -103 5 -5 9 -14 10 -20 1 -5 6 -20 11 -33 5 -13 9 -25 9 -27 0 -6 72 -129 79                               -135 3 -3 25 -31 49 -63 123 -165 332 -326 597 -461 177 -91 237 -116 440                               -184 176 -59 491 -137 617 -151 46 -6 58 -4 58 6 0 8 -4 12 -9 9 -5 -4 -22 -1                               -38 5 -15 6 -84 28 -153 49 -134 40 -360 122 -450 163 -263 118 -418 205 -620                               348 -52 36 -260 219 -260 228 -1 3 -28 35 -61 71 -33 36 -88 110 -122 164 -57                               93 -127 247 -127 280 0 8 -5 27 -12 43 -15 35 -18 103 -5 103 5 0 7 7 3 15 -3                               8 -1 15 4 15 9 0 26 39 22 53 -1 4 2 7 7 7 5 0 12 11 15 25 4 14 11 23 15 20                               5 -3 11 0 13 6 2 7 14 -11 25 -39 74 -177 274 -383 513 -527 36 -22 75 -46 85                               -52 91 -58 376 -183 555 -243 179 -59 662 -171 678 -156 10 10 -10 22 -68 41                               -504 166 -864 353 -1146 597 -90 77 -202 200 -257 281 -44 64 -107 194 -123                               251 -7 28 -16 60 -19 72 -5 15 4 31 35 62 22 24 45 40 50 37 5 -3 13 3 19 12                               6 10 11 14 11 8 0 -5 10 1 21 15 11 14 18 18 14 10 -4 -8 1 -6 9 4 31 38 49                               29 93 -48 87 -148 282 -310 520 -430 241 -121 668 -253 932 -288 48 -6 30 18                               -26 37 -394 128 -767 339 -942 533 -69 76 -139 194 -158 265 -17 66 -17 152 0 185 8 15 24 50 38 77 22 46 89 146 89 132 0 -8 63 34 86 58 17 17 18 17 24 -1                               5 -13 -3 -31 -23 -56 -17 -21 -34 -38 -38 -38 -13 0 -119 -102 -119 -115 0 -7                               -6 -18 -14 -24 -19 -16 -26 -59 -10 -65 7 -3 14 -1 16 4 2 5 19 11 38 13 19 2                               45 9 56 15 12 6 36 14 55 17 19 3 59 12 89 20 94 24 240 53 370 72 178 26 747                               26 930 0 191 -27 418 -73 555 -112 92 -27 240 -73 284 -90 24 -9 54 -15 65                               -13 28 4 -130 83 -304 152 -214 84 -576 184 -795 219 -308 50 -340 52 -693 52                               -281 0 -344 -3 -351 -14 -6 -9 -20 -12 -39 -9 -17 2 -29 1 -26 -4 3 -4 -4 -8                               -15 -8 -65 0 36 71 204 145 57 25 106 39 185 54 19 3 175 6 345 6 266 -1 332                               -4 465 -23 314 -45 386 -61 559 -130 70 -27 116 -41 119 -34 3 10 31 5 82 -16                               108 -44 192 -74 197 -68 11 10 -7 21 -107 66 -160 72 -311 126 -485 174 -33 9                               -87 25 -120 36 -302 94 -743 132 -1105 94z m-961 -429 c-12 -19 -25 -35 -29                               -35 -5 0 -7 -8 -6 -17 2 -10 -3 -27 -10 -38 -15 -24 -30 -145 -18 -145 5 0 7                               -23 5 -51 -2 -42 -6 -49 -20 -43 -9 3 -24 7 -35 9 -10 1 -23 11 -30 22 -6 11                               -17 18 -23 16 -18 -7 -16 16 2 23 8 4 15 12 15 20 0 7 9 18 20 24 11 6 20 20                               20 31 0 23 25 75 48 102 14 16 13 17 -12 17 -15 0 -25 -4 -21 -10 3 -6 -1 -7                               -10 -4 -14 6 -13 10 7 32 27 29 97 82 109 82 5 0 -1 -16 -12 -35z"/>                               <path d="M2 1780 c0 -19 2 -27 5 -17 2 9 2 25 0 35 -3 9 -5 1 -5 -18z"/></g></svg>}
                             >
                                 <div class="skillContainer">
-                                    <div class="skill"><span class="skillText"> Python </span></div>
-                                    <div class="skill"><span class="skillText"> OpenCV </span></div>
-                                    <div class="skill"><span class="skillText"> VB.NET </span></div>
-                                    <div class="skill"><span class="skillText"> SQL </span></div>
+                                    <div class="skill"><span class="skillText"> SOLIDWORKS </span></div>
+                                    <div class="skill"><span class="skillText"> Simulation Solutions </span></div>
                                 </div>
                                 <h3 className="vertical-timeline-element-title">Engineering Assistant</h3>
                                 <h4 className="vertical-timeline-element-subtitle">Amphenol</h4>
-                                <p>
-                                Description
-                                </p>
                             </VerticalTimelineElement>
                             <VerticalTimelineElement
                                 className="vertical-timeline-element--work"
@@ -200,16 +183,10 @@ class Timeline extends React.Component {
                                 iconClassName="SVGInline"    
                             >
                                 <div class="skillContainer">
-                                    <div class="skill"><span class="skillText"> Python </span></div>
-                                    <div class="skill"><span class="skillText"> OpenCV </span></div>
-                                    <div class="skill"><span class="skillText"> VB.NET </span></div>
-                                    <div class="skill"><span class="skillText"> SQL </span></div>
+                                    <div class="skill"><span class="skillText"> VBA </span></div>
                                 </div>
-                                <h3 className="vertical-timeline-element-title">Quality Assurance</h3>
+                                <h3 className="vertical-timeline-element-title">Quality Assurance Engineering</h3>
                                 <h4 className="vertical-timeline-element-subtitle">Toshiba</h4>
-                                <p>
-                                Description
-                                </p>
                             </VerticalTimelineElement>
                             <VerticalTimelineElement
                             iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}

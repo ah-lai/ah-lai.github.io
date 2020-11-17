@@ -8,3 +8,14 @@
 .icons:hover{
     fill: #2196f3!important;
 }
+
+.resume {
+    background-size: 20px 30px;
+    margin-left: 2px;
+    margin-right: 8px;
+    fill: #f4f5f9;
+}
+
+.resume:hover{
+    fill: #2196f3!important;
+}
