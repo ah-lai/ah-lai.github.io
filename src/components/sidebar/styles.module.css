@@ -38,7 +38,7 @@
     color:#2196f3!important;    
 }
 
-ul {
+#tablecontent > ul {
     list-style-type:none;
 }
 

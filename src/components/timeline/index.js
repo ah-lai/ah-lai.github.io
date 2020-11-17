@@ -9,11 +9,11 @@ class Timeline extends React.Component {
         return(
             <section>
                 <div name="experience" className={styles.condiv}>
-                    <h3 class="header"> Experience: </h3>
+                    <h4 class="header"> Experience: </h4>
                     <VerticalTimeline>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            date="Sept. 2021 - Present"
+                            date="Sept. 2020 - Present"
                             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                             icon={<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                             width="191.000000pt" height="264.000000pt" viewBox="0 0 191.000000 264.000000"
@@ -43,8 +43,8 @@ class Timeline extends React.Component {
                                 <div class="skill"><span class="skillText"> ASP.NET </span></div>
                                 <div class="skill"><span class="skillText"> jQuery </span></div>
                             </div>
-                            <h3 className="vertical-timeline-element-title">Software Developer - TDO</h3>
-                            <h4 className="vertical-timeline-element-subtitle">Miovision</h4>
+                            <h4 className="vertical-timeline-element-title">Software Developer - TDO</h4>
+                            <h5 className="vertical-timeline-element-subtitle">Miovision</h5>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
@@ -78,8 +78,8 @@ class Timeline extends React.Component {
                                 <div class="skill"><span class="skillText"> Terraform </span></div>
                                 <div class="skill"><span class="skillText"> SQL </span></div>
                             </div>
-                            <h3 className="vertical-timeline-element-title">Software Developer - Datalink</h3>
-                            <h4 className="vertical-timeline-element-subtitle">Miovision</h4>
+                            <h4 className="vertical-timeline-element-title">Software Developer - Datalink</h4>
+                            <h5 className="vertical-timeline-element-subtitle">Miovision</h5>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
@@ -104,8 +104,8 @@ class Timeline extends React.Component {
                                 <div class="skill"><span class="skillText"> VB.NET </span></div>
                                 <div class="skill"><span class="skillText"> SQL </span></div>
                             </div>
-                            <h3 className="vertical-timeline-element-title">Software Developer (Automation)</h3>
-                            <h4 className="vertical-timeline-element-subtitle">Lumentum</h4>
+                            <h4 className="vertical-timeline-element-title">Software Developer (Automation)</h4>
+                            <h5 className="vertical-timeline-element-subtitle">Lumentum</h5>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
@@ -159,8 +159,8 @@ class Timeline extends React.Component {
                                 <div class="skill"><span class="skillText"> OpenCV </span></div>
                                 <div class="skill"><span class="skillText"> VBA </span></div>
                             </div>
-                            <h3 className="vertical-timeline-element-title">Junior Engineering</h3>
-                            <h4 className="vertical-timeline-element-subtitle">KingTiger Technology Inc.</h4>
+                            <h4 className="vertical-timeline-element-title">Junior Engineering</h4>
+                            <h5 className="vertical-timeline-element-subtitle">KingTiger Technology Inc.</h5>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                                 className="vertical-timeline-element--work"
@@ -172,8 +172,8 @@ class Timeline extends React.Component {
                                     <div class="skill"><span class="skillText"> SOLIDWORKS </span></div>
                                     <div class="skill"><span class="skillText"> Simulation Solutions </span></div>
                                 </div>
-                                <h3 className="vertical-timeline-element-title">Engineering Assistant</h3>
-                                <h4 className="vertical-timeline-element-subtitle">Amphenol</h4>
+                                <h4 className="vertical-timeline-element-title">Engineering Assistant</h4>
+                                <h5 className="vertical-timeline-element-subtitle">Amphenol</h5>
                             </VerticalTimelineElement>
                             <VerticalTimelineElement
                                 className="vertical-timeline-element--work"
@@ -185,8 +185,8 @@ class Timeline extends React.Component {
                                 <div class="skillContainer">
                                     <div class="skill"><span class="skillText"> VBA </span></div>
                                 </div>
-                                <h3 className="vertical-timeline-element-title">Quality Assurance Engineering</h3>
-                                <h4 className="vertical-timeline-element-subtitle">Toshiba</h4>
+                                <h4 className="vertical-timeline-element-title">Quality Assurance Engineering</h4>
+                                <h5 className="vertical-timeline-element-subtitle">Toshiba of Canada Ltd.</h5>
                             </VerticalTimelineElement>
                             <VerticalTimelineElement
                             iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}

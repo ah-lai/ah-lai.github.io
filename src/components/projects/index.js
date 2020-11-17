@@ -24,9 +24,9 @@ class Projects extends React.Component {
                                     Messenger Web application used for communication between users. 
                                 </h5>
                                     <br></br>
-                                <ul>
-                                    <li>Leverage technolgies such as user token authenication, RESTful calls, ORM, and followed the MVC model.</li>
-                                    <li>Front end was developed in ReactJS (HTML/CSS), which communiated to a Django Rest back-end with a mySQL database. </li>
+                                <ul className={styles.projectinfo} >
+                                    <li>Leverages technologies such as user token authentication, RESTful calls, ORM, and follows the MVC model.</li>
+                                    <li>Front end developed in ReactJS (HTML/CSS), which communicates to a Django Rest back-end with a mySQL database.</li>
                                 </ul>
                             </div>
                         </div>
@@ -45,11 +45,11 @@ class Projects extends React.Component {
                             </div>
                             <div className={styles.description}>
                                 <h5> 
-                                    An iOS application used to classify fish species from a user taken photo. 
+                                    An iOS application classifying fish species based on photo taken by user.
                                 </h5>
                                 <br></br>
-                                <ul>
-                                    <li>Machine learning neural network was trained using Keras where the model was deployed to CoreML. </li>
+                                <ul className={styles.projectinfo} >
+                                    <li>Machine learning neural network was trained using Keras, where the model was deployed to CoreML.</li>
                                     <li>Created a script to build image training dataset using Bing API. </li>
                                 </ul>
                             </div>
@@ -71,7 +71,7 @@ class Projects extends React.Component {
                                     6 degrees of freedom Stewart Platform controlled by a PS3 Controller and Arduino used to solve a ball maze.
                                 </h5>
                                 <br></br>
-                                <ul>
+                                <ul className={styles.projectinfo} >
                                     <li>Programmed inverse kinematics in the Arduino to calculate servo motor angles from inputs of a PS3 Controller to move the platform in the desired position. </li>
                                     <li>Modelled the platform in SOLIDWORKS where parts were 3D-printed and laser cut.  </li>
                                 </ul>
@@ -83,18 +83,18 @@ class Projects extends React.Component {
                     </div>
                     <div className={styles.wrapper}>
                         <div className={styles.project}>
-                            <h3><a className={styles.projectText} href="https://github.com/ah-lai/Almost-an-RPG"  target="_blank">Almost a RPG</a></h3>
+                            <h3><a className={styles.projectText} href="https://github.com/ah-lai/Almost-an-RPG"  target="_blank">Almost an RPG</a></h3>
                             <div class="skillContainer">
                                 <div class="skill"><span class="skillText"> C++ </span></div>
                                 <div class="skill"><span class="skillText"> SFML </span></div>
                             </div>
                             <div className={styles.description}>
                                 <h5>
-                                    2D role playing video game in C++ using the SFML library and following OOP principles.
+                                    2D role playing video game in C++ using the SFML library and developed using OOP principles.
                                 </h5>
                                 <br></br>
-                                <ul>
-                                    <li>Game consists of 4 different types of enemys with simple AI, boss rooms, a shop to buy power ups from gold collection. </li>
+                                <ul className={styles.projectinfo} >
+                                    <li>Game consists of 4 different types of enemies with simple AI, boss rooms, a shop to buy power ups from gold collection.</li>
                                 </ul>
                             </div>
                         </div>
