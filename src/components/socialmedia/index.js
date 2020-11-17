@@ -5,7 +5,7 @@ class SocialMedia extends React.Component{
     render(){
         return(
             <div>
-                <a href="resume">
+                <a href="./resume.pdf" target="_blank">
                 <svg className={styles.resume} version="1.0" xmlns="http://www.w3.org/2000/svg"
                     width="35.5pt" height="35.5pt" viewBox="0 0 885.000000 861.000000"
                     preserveAspectRatio="xMidYMid meet">

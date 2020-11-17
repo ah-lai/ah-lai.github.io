@@ -18,6 +18,11 @@
     color: black;
 }
 
+.skills{
+  font-weight: 900;
+  text-decoration: underline;
+}
+
 @media only screen and (min-width: 600px) {
   .condiv {
       margin-left: 45%;

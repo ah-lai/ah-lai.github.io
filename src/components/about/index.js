@@ -20,10 +20,18 @@ class About extends React.Component {
                         <br></br>
 
                         Skills: 
+                        <br></br>
+                        <b className={styles.skills}>Languages</b>: Python, C#, Javascript, C++, Java, SQL
+                        <br></br>
+                        <b className={styles.skills}>Databases</b>: MySQL, MongoDB
+                        <br></br>
+                        <b className={styles.skills}>Tools/Frameworks</b>: ASP.NET, React, Django, TensorFlow, Keras, AWS, Git, Docker
+                        <br></br>
+                        <b className={styles.skills}>Certifications</b>: Software Design & Architecture Specialization, IBM AI Engineering
 
                         <br></br>
                         <br></br>
-                        <Button variant="primary">RESUME</Button>{' '}
+                        <a class="btn btn-primary" role="button"  href="./resume.pdf" target="_blank">RESUME</a>
                     </p>
                 </div>
             </section>
