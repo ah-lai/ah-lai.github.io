@@ -25,7 +25,7 @@ class Projects extends React.Component {
                                 </h5>
                                     <br></br>
                                 <ul>
-                                    <li>Leaverage technolgies such as user token authenication, RESTful calls, ORM, and followed the MVC model.</li>
+                                    <li>Leverage technolgies such as user token authenication, RESTful calls, ORM, and followed the MVC model.</li>
                                     <li>Front end was developed in ReactJS (HTML/CSS), which communiated to a Django Rest back-end with a mySQL database. </li>
                                 </ul>
                             </div>
@@ -68,7 +68,7 @@ class Projects extends React.Component {
                             </div>
                             <div className={styles.description}>
                                 <h5> 
-                                    6 degrees of freedom Steward Platform controlled by a PS3 Controller and Arduino used to solve a ball maze.
+                                    6 degrees of freedom Stewart Platform controlled by a PS3 Controller and Arduino used to solve a ball maze.
                                 </h5>
                                 <br></br>
                                 <ul>
