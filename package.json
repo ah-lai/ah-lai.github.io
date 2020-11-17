@@ -2,6 +2,7 @@
   "name": "porfolio-website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ah-lai.github.io/",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@testing-library/jest-dom": "^5.11.4",
