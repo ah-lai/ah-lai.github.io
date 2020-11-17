@@ -19,8 +19,8 @@ class Sidebar extends React.Component{
                 <SocialMedia></SocialMedia>
                 <br></br>
                 <br></br>
-                <div id="tablecontent">
-                    <ul>
+                <div>
+                    <ul className={styles.tablecontent}>
                         <li className={styles.nav}><Link activeClass={styles.active} to="about" spy={true} smooth={true} duration={500} >About</Link></li>
                         <div className={styles.line}></div>
                         <li className={styles.nav}><Link activeClass={styles.active} to="projects" spy={true} smooth={true} duration={500} >Projects</Link></li>
