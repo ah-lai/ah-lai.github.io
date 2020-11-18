@@ -13,7 +13,7 @@ class Projects extends React.Component {
                 <div>
                     <div className={styles.wrapper}>
                         <div className={styles.project}>
-                            <h3><a className={styles.projectText} href="https://github.com/ah-lai/Web-App-Messenger"  target="_blank"> Messenger Web App </a></h3>
+                            <h3><a className={styles.projectText} href="https://github.com/ah-lai/Web-App-Messenger"  target="_blank"> Lets Talk! </a></h3>
                             <div class="skillContainer">
                                 <div class="skill"><span class="skillText"> React </span></div>
                                 <div class="skill"><span class="skillText"> Django </span></div>
@@ -22,7 +22,7 @@ class Projects extends React.Component {
                             </div>
                             <div className={styles.description}>
                                 <h5> 
-                                    Messenger Web application used for communication between users. 
+                                    Messenger web application used for communication between users. 
                                 </h5>
                                     <br></br>
                                 <ul className={styles.projectinfo} >
@@ -63,7 +63,7 @@ class Projects extends React.Component {
                         <div className={styles.project}>
                             <h3><a className={styles.projectText} href="https://github.com/ah-lai/ME-380"  target="_blank">6-DOF Stewart Platform</a></h3>
                             <div class="skillContainer">
-                                <div class="skill"><span class="skillText"> Arduino </span></div>
+                                <div class="skill"><span class="skillText"> Arduino (C++) </span></div>
                                 <div class="skill"><span class="skillText"> PS3 Controller </span></div>
                                 <div class="skill"><span class="skillText"> SOLIDWORKS </span></div>
                             </div>
@@ -73,7 +73,7 @@ class Projects extends React.Component {
                                 </h5>
                                 <br></br>
                                 <ul className={styles.projectinfo} >
-                                    <li>Programmed inverse kinematics in the Arduino to calculate servo motor angles from inputs of a PS3 Controller to move the platform in the desired position. </li>
+                                    <li>Programmed inverse kinematics in microcontroller (Arduino) to calculate several servo motor angles from inputs of a PS3 Controller to move the platform in the desired position. </li>
                                     <li>Modelled the platform in SOLIDWORKS where parts were 3D-printed and laser cut.  </li>
                                 </ul>
                             </div>
