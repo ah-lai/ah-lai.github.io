@@ -72,18 +72,23 @@
 }
 
 div[id="MessengerDiv"]{
-    top: 5px;
-    right: -155px;
+    top: 105px;
+    right: -141px;
 }
 
 div[id="FishAiDiv"]{
-    top: 6px;
-    right: -180px;
+    top: 90px;
+    right: -172px;
+}
+
+div[id="stewardplatform"]{
+    top: 75px;
+    right: -145px;
 }
 
 div[id="RpgDiv"]{
-    top: -8px;
-    right: -185px;
+    top: 75px;
+    right: -175px;
 }
 
 @media only screen and (min-width: 600px) {
