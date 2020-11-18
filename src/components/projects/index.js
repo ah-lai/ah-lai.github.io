@@ -27,7 +27,7 @@ class Projects extends React.Component {
                                     <br></br>
                                 <ul className={styles.projectinfo} >
                                     <li>Leverages technologies such as user token authentication, RESTful calls, ORM, and follows the MVC model.</li>
-                                    <li>Front end developed in ReactJS (HTML/CSS), which communicates to a Django Rest back-end with a mySQL database.</li>
+                                    <li>Front-end developed in ReactJS (HTML/CSS), which communicates to a Django Rest back-end with a mySQL database.</li>
                                 </ul>
                             </div>
                         </div>
@@ -95,7 +95,7 @@ class Projects extends React.Component {
                                 </h5>
                                 <br></br>
                                 <ul className={styles.projectinfo} >
-                                    <li>Game consists of 4 different types of enemies with simple AI, boss rooms, a shop to buy power ups from gold collection.</li>
+                                    <li>Game consists of 4 different types of enemies with simple AI, boss rooms, a shop to buy power ups using gold collection.</li>
                                 </ul>
                             </div>
                         </div>
