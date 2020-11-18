@@ -3,6 +3,7 @@ import styles from './styles.module.css';
 import chatIcon from './pics/chat.jpg'
 import almostRpgIcon from './pics/sword.png'
 import fishAiIcon from './pics/fish.png'
+import stewartplatform from './pics/sw_model.png'
 
 class Projects extends React.Component {
     render() {
@@ -77,8 +78,8 @@ class Projects extends React.Component {
                                 </ul>
                             </div>
                         </div>
-                        <div id="RpgDiv" className={styles.image}>
-                            <img src={almostRpgIcon} width="20%"/>
+                        <div id="stewardplatform" className={styles.image}>
+                            <img src={stewartplatform} width="25%"/>
                         </div>
                     </div>
                     <div className={styles.wrapper}>
