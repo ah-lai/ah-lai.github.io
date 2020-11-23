@@ -13,6 +13,9 @@ class Projects extends React.Component {
                 <div>
                     <div className={styles.wrapper}>
                         <div className={styles.project}>
+                            <div id="MessengerDiv" className={styles.image}>
+                                <img className={styles.transform} src={chatIcon} width="100px"/>
+                            </div>
                             <h3><a className={styles.projectText} href="https://github.com/ah-lai/Web-App-Messenger"  target="_blank"> Lets Talk! </a></h3>
                             <div class="skillContainer">
                                 <div class="skill"><span class="skillText"> React </span></div>
@@ -30,9 +33,6 @@ class Projects extends React.Component {
                                     <li>Front-end developed in ReactJS (HTML/CSS), which communicates to a Django Rest back-end with a mySQL database.</li>
                                 </ul>
                             </div>
-                        </div>
-                        <div id="MessengerDiv" className={styles.image}>
-                            <img className={styles.transform} src={chatIcon} width="20%"/>
                         </div>
                     </div>
                     <div className={styles.wrapper}>
@@ -56,7 +56,7 @@ class Projects extends React.Component {
                             </div>
                         </div>
                         <div id="FishAiDiv" className={styles.image}>
-                            <img src={fishAiIcon} width="15%"/>
+                            <img src={fishAiIcon} width="100px"/>
                         </div>
                     </div>
                     <div className={styles.wrapper}>
@@ -79,7 +79,7 @@ class Projects extends React.Component {
                             </div>
                         </div>
                         <div id="stewardplatform" className={styles.image}>
-                            <img src={stewartplatform} width="25%"/>
+                            <img src={stewartplatform} width="100px"/>
                         </div>
                     </div>
                     <div className={styles.wrapper}>
@@ -100,7 +100,7 @@ class Projects extends React.Component {
                             </div>
                         </div>
                         <div id="RpgDiv" className={styles.image}>
-                            <img src={almostRpgIcon} width="20%"/>
+                            <img src={almostRpgIcon} width="100px"/>
                         </div>
                     </div>
                 </div>

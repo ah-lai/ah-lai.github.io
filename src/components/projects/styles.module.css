@@ -65,31 +65,11 @@
 
 .image {
     position: absolute;
-    top: 0;
-    right: 0;
-    height: 20px;
-    padding: 10px 10px;
+    right: 8% !important;
+    top: 50%;
+    transform: translate(0,-50%);
 }
 
-div[id="MessengerDiv"]{
-    top: 105px;
-    right: -141px;
-}
-
-div[id="FishAiDiv"]{
-    top: 90px;
-    right: -172px;
-}
-
-div[id="stewardplatform"]{
-    top: 75px;
-    right: -145px;
-}
-
-div[id="RpgDiv"]{
-    top: 75px;
-    right: -175px;
-}
 
 @media only screen and (min-width: 600px) {
     .collumn {

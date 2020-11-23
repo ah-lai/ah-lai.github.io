@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './styles.module.css';
 import SocialMedia from '../socialmedia'
 import { Link, animateScroll as scroll } from 'react-scroll'
-import profilepic from './pics/tmp.png'
+import profilepic from './pics/profile.png'
 
 class Sidebar extends React.Component{
     render () {
