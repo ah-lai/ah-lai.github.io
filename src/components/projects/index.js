@@ -95,7 +95,7 @@ class Projects extends React.Component {
                                 </h5>
                                 <br></br>
                                 <ul className={styles.projectinfo} >
-                                    <li>Game consists of 4 different types of enemies with simple AI, boss rooms, a shop to buy power ups using gold collection.</li>
+                                    <li>Game consists of 4 different types of enemies with simple AI, boss rooms, and a shop to buy power-ups using gold collection.</li>
                                 </ul>
                             </div>
                         </div>
