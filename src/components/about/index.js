@@ -31,7 +31,7 @@ class About extends React.Component {
 
                         <br></br>
                         <br></br>
-                        <a class="btn btn-primary" role="button"  href="./resume.pdf" target="_blank">RESUME</a>
+                        <a class="btn btn-primary" role="button"  href="./AlvinLaiResume.pdf" target="_blank">RESUME</a>
                     </p>
                 </div>
             </section>
